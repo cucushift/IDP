@@ -4,7 +4,8 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-cluster_url="$(oc whoami --show-server | cut -f 2 -d ':' | cut -f 3 -d '/' | sed 's/-api././')"
+#cluster_url="$(oc whoami --show-server | cut -f 2 -d ':' | cut -f 3 -d '/' | sed 's/-api././')"
+cluster_url="$(oc whoami --show-server | cut -f 2 -d ':' | cut -f 3 -d '/' | sed 's/api.//')"
 hostname="o.apps.${cluster_url}"
 
 
