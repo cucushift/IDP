@@ -5,6 +5,5 @@ metadata:
 spec:
   ggrouprestriction:
     groups: ["groups-rolebindingrestriction"]
-  userrestriction:
-    userrestriction: null
+  userrestriction: null
   grouprestriction: null
