@@ -5,6 +5,8 @@ metadata:
 spec:
   ggrouprestriction:
     groups: ["groups-rolebindingrestriction"]
-    serviceaccounts: null
+    serviceaccounts:
+    - name: service_account_name1
+      namespace: namespace1 2
   userrestriction: null
   grouprestriction: null
