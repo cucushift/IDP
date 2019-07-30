@@ -6,5 +6,4 @@ spec:
   ggrouprestriction:
     groups: ["groups-rolebindingrestriction"]
   userrestriction: null
-  serviceaccountrestriction: null
   grouprestriction: null
