@@ -3,9 +3,8 @@ kind: RoleBindingRestriction
 metadata:
   name: match-groups
 spec:
-  grouprestriction:
-    groups:
-    - groups-rolebindingrestriction
-    labels: null
+  ggrouprestriction:
+    groups: ["groups-rolebindingrestriction"]
   userrestriction: null
   serviceaccountrestriction: null
+  grouprestriction: null
