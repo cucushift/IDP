@@ -4,7 +4,8 @@ metadata:
   name: match-groups
 spec:
   grouprestriction:
-    groups: ["groups-rolebindingrestriction"]
+    groups:
+    - groups-rolebindingrestriction
     labels: null
   userrestriction: null
   serviceaccountrestriction: null
