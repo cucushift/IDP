@@ -5,6 +5,6 @@ metadata:
 spec:
   ggrouprestriction:
     groups: ["groups-rolebindingrestriction"]
-    serviceaccounts: ["default"]
+    serviceaccounts: {}
   userrestriction: null
   grouprestriction: null
